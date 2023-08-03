@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student and Research Associate at the School of Computer Science and Engineering, Nanyang Technological University, Singapore. I am fortunate to be supervised by [Prof. Rui Tan](https://personal.ntu.edu.sg/tanrui/) and work closely with [NTU IoT Sensing Group](https://ntuiot.xyz/).
+I am a Ph.D. student and Research Associate at the School of Computer Science and Engineering, Nanyang Technological University, Singapore. I am fortunate to be supervised by [Prof. Rui Tan](https://personal.ntu.edu.sg/tanrui/) and work closely with [NTU IoT Researchs Group](https://ntuiot.xyz/).
 Prior to that, I received my M.Sc. degree from Nanyang Technological University, and my B.Eng. degree from University of Electronic Science and Technology of China. 
 
 My research interests broadly lie in the field of sensing in Internet of Things and cyber-physical systems. I am passionate about experiment-oriented research, and enjoy getting my hands dirty to build up real-world systems.
