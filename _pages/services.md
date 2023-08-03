@@ -8,10 +8,11 @@ nav_order: 3
 ---
 
 **Conference Service**\
-Web Chair, ACM e-Energy’2024, Singapore
+Web Chair, ACM e-Energy 2024
 
 
 **Co-Reviewer**\
+ACM Conference on Embedded Networked Sensor Systems (SenSys) 2023\
 IEEE International Conference on Computer Communications (INFOCOM) 2022, 2023\
 ACM Transactions on Sensor Networks (TOSN) 2022
 
