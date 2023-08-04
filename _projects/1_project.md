@@ -1,80 +1,31 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: ILLOC
+description: In-Hall Localization with Standard LoRaWAN Uplink Frames
+img: assets/img/illoc_bg.jpeg
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+While LoRaWAN is mainly designed for establishing connectivity, being able to localize LoRaWAN devices unobtrusively using their uplink frames is desirable. The unobtrusiveness here means that no special software instrumentation is needed for the LoRaWAN end devices. As such, the localization service is free from entanglement with any other applications running on the LoRaWAN devices; the already deployed LoRaWANs can develop the localization capability seamlessly.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+We design and evaluate a time difference of arrival (TDoA)-based, unobtrusive in-hall LoRaWAN localization (ILLOC) system for any off-the-shelf LoRaWAN end devices. ILLOC deploys multiple software-defined radio (SDR)-based anchors with known positions and estimates the position of an end device based on the anchors’ TDoA measurements regarding any single uplink frame from the end device. The design of ILLOC faces two challenges: (1) Narrowband: LoRa signals use narrow frequency bands, thus are long and smooth in time domain. Without special treatment, the uncertainty of arrival time estimation with 125 kHz bandwidth is up to 8 microseconds, which is translated to 2.4 km distance in ranging. (2) Inter-anchor clock skews: tight synchronization of the anchors’ clocks (ideally, to nanoseconds accuracy) is a basis of TDoA-based multilateration. However, implementing highly accurate clock synchronization via cabling can incur large deployment overhead.
+
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-12 text-center">
+        {% include figure.html path="assets/img/illoc_system.png" title="illoc_system" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+To address these technical challenges, we propose the ILLOC system featuring two LoRaWAN-specific techniques: (1) the cross-correlation among the differential phase sequences (DPS) received by two anchors to estimate TDoA, exploiting LoRa’s CCS characteristic; and (2) the just-in-time (JIT) synchronization enabled by a specially deployed LoRaWAN end device providing time reference upon detecting a target device’s transmission, using LoRa’s Channel Activity Detection (CAD) feature. In a long tunnel corridor, a 70 × 32 sqm sports hall, and a 110 × 70 sqm indoor plaza with extensive non-line-of-sight (NLOS) propagation paths, ILLOC achieves median localization errors of 6 m (with 2 anchors), 8.36 m (with 6 anchors), and 15.16 m (with 6 anchors and frame fusion), respectively. The achieved accuracy makes ILLOC useful for applications including zone-level asset tracking, misplacement detection, airport trolley management, and cybersecurity enforcement like detecting impersonation attacks launched by remote radios. This research was published on ACM IMWUT/UbiComp'22 ([PDF](/assets/pdf/ILLOC-final.pdf)).
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-12 text-center">
+        {% include figure.html path="assets/img/illoc_plaza.png" title="illoc_plaza" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    The indoor plaza deployment (with extensive NLOS paths). The crosses in the call-out figure are the localization results for position 5.
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

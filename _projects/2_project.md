@@ -1,80 +1,55 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: EchoLoc
+description: Infrastructure-Free Smartphone Indoor Localization Using Room Acoustic Responses
+img: assets/img/echoloc_bg.jpeg
 importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Smartphone-based localization has attracted wide research in recent years due to the proliferation of smartphones and the increasingly demanded location-aware services. In indoor environments, the global positioning system (GPS) are often unavailable due to the blockage of GPS signal and more stringent requirements of indoor positioning services. Therefore, a number of modalities such as Bluetooth and Wi-Fi are exploited to build smartphone-based indoor localization systems. These solutions are usually infrastructure-based, which require the installation of extra anchor points for localizing the smartphones. Excessive effort for infrastructure installation often stems the applicability of infrastructure-based indoor localization systems. Therefore, an accurate, reliable infrastructure-free indoor localization system will be more favorable compared with infrastructure-based systems.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+EchoLoc is a deep neural network (DNN) based system for accurate and large-scale smartphone indoor localization using room acoustic responses. It has four salient advantages.
+1. EchoLoc is infrastructure free and only requires the access to the smartphone audio system. We show that the potential applications of EchoLoc span from small meeting rooms to large semi-open concert halls.
+2. EchoLoc achieves 95% location recall accuracy in a large public indoor space and sub-meter mean localization error in the tested lab office. This localization accuracy can support a range of location-based mobile services such as navigation, way finding, workspace clock-in, artwork interaction, emergency response, etc.
+3. EchoLoc works with normal hand grasping of the smartphone and require no special holdings of the phone.
+4. EchoLoc emits chirps in a frequency range from 15 kHz to 20 kHz, which lies in the nearly inaudible range of human ears. Therefore, EchoLoc is robust to ambient noise and causes little/no annoyance to users.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-12 text-center">
+        {% include figure.html path="assets/img/echoloc_workflow.jpg" title="echoloc_workflow" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+</div>
+
+
+There are a few recent works exploiting smartphone acoustic system for indoor localization. However, they only achieve room-level localization or only evaluate the localization performance at a few locations per room.
+
+EchoLoc performance is evaluated in a public indoor space and a lab area. Among the 101 fingerprinted locations in a large scale public indoor space, EchoLoc achieves a 95% location recognition accuracy (left figure below). Among the 61 locations fingerprinted in our lab area, EchoLoc achieves an 81% location recognition accuracy and sub-meter mean localization error (right figure below).
+
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-sm-4">
+            {% include figure.html path="assets/img/echoloc_cm.jpg" title="echoloc_cm" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-5">
+            {% include figure.html path="assets/img/echoloc_cdf.jpg" title="echoloc_cdf" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left: Confusion matrix in public indoor space (101 positions, 95% accuracy); Right: Localization error in lab area (61 positions, 81% accuracy).
 </div>
+
+EchoLoc can support a range of location-based mobile services such as navigation, way finding, workspace clock-in, artwork interaction, emergency response, etc., in various indoor environments.
+
+To give some example, in an office building, EchoLoc can be used for employee clock-in or phone-nearby required device unlock. In a large shopping mall, EchoLoc can help customers to locate their positions and provide guidance toward a specific shop. In a hospital, EchoLoc can be used for patients’ location monitoring and emergency response. In a gallery or museum, visitors can trigger the narration of an artwork using EchoLoc just in front of it.
+
+<div>
+Video demo:
+</div>
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-12 text-center">
+        {% include video.html path="https://www.youtube.com/embed/5si0Cq6LzT4" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
