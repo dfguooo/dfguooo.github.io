@@ -20,6 +20,9 @@ EchoLoc is a deep neural network (DNN) based system for accurate and large-scale
         {% include figure.html path="assets/img/echoloc_workflow.jpg" title="echoloc_workflow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Workflow of EchoLoc.
+</div>
 
 
 There are a few recent works exploiting smartphone acoustic system for indoor localization. However, they only achieve room-level localization or only evaluate the localization performance at a few locations per room.
