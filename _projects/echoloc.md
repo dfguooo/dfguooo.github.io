@@ -7,6 +7,19 @@ importance: 2
 category: work
 ---
 
+Video demo:
+
+<div class="row">
+    <div class="col-sm-12 text-center">
+        <div class="embed-responsive embed-responsive-16by9" style="max-width: 800px;">
+            {% include video.html path="https://www.youtube.com/embed/5si0Cq6LzT4" class="embed-responsive-item" %}
+        </div>
+    </div>
+</div>
+
+ -- 
+
+
 Smartphone-based localization has attracted wide research in recent years due to the proliferation of smartphones and the increasingly demanded location-aware services. In indoor environments, the global positioning system (GPS) are often unavailable due to the blockage of GPS signal and more stringent requirements of indoor positioning services. Therefore, a number of modalities such as Bluetooth and Wi-Fi are exploited to build smartphone-based indoor localization systems. These solutions are usually infrastructure-based, which require the installation of extra anchor points for localizing the smartphones. Excessive effort for infrastructure installation often stems the applicability of infrastructure-based indoor localization systems. Therefore, an accurate, reliable infrastructure-free indoor localization system will be more favorable compared with infrastructure-based systems.
 
 EchoLoc is a deep neural network (DNN) based system for accurate and large-scale smartphone indoor localization using room acoustic responses. It has four salient advantages.
@@ -49,15 +62,4 @@ EchoLoc can support a range of location-based mobile services such as navigation
 To give some example, in an office building, EchoLoc can be used for employee clock-in or phone-nearby required device unlock. In a large shopping mall, EchoLoc can help customers to locate their positions and provide guidance toward a specific shop. In a hospital, EchoLoc can be used for patients’ location monitoring and emergency response. In a gallery or museum, visitors can trigger the narration of an artwork using EchoLoc just in front of it.
 
 The demo abstract was published on SenSys'21 Demo ([PDF](/assets/pdf/EchoLoc-demo.pdf)).
-
-Video demo:
-
-<div class="row">
-    <div class="col-sm-12 text-center">
-        <div class="embed-responsive embed-responsive-16by9" style="max-width: 800px;">
-            {% include video.html path="https://www.youtube.com/embed/5si0Cq6LzT4" class="embed-responsive-item" %}
-        </div>
-    </div>
-</div>
-
 
