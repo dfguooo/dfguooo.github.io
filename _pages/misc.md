@@ -11,5 +11,4 @@ In my free time, I enjoy <s>sleeping</s> sports and music.
 
 I am a badminton enthusiast, playing and training on a regular basis. I also like strength training and football.
 
-I played saxophone for years in my childhood and now play bass sometimes. I am interested in various music genres, like funk, rock, R&B and jazz ;)
-
+I played saxophone for years in my childhood. Now I play bass sometimes.

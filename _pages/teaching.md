@@ -7,6 +7,11 @@ nav: true
 nav_order: 2
 ---
 
+**Tutorial**\
+AI6128 Urban Computing, NTU, 2023
+
+
+
 **Supervision of Undergraduate Final Year Project**\
 Peizhu Zhao, Ryan Edward Tay Siang An (NTU 2022 fall batch)\
 Goh Ying Ting (NTU 2022 spring batch)\
