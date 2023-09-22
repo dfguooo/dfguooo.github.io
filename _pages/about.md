@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: usyd.jpg
+  image: diver.jpg
   image_circular: true # crops the image to make it circular
   # address: 
   #   <p>Computer Networks & Communications Lab (CNCL)</p>
