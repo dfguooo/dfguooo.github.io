@@ -12,7 +12,7 @@ Web Chair, ACM e-Energy 2024
 
 
 **Co-Reviewer**\
-ACM Conference on Embedded Networked Sensor Systems (SenSys) 2023, 2024\
+ACM Conference on Embedded Networked Sensor Systems (SenSys) 2023\
 IEEE International Conference on Computer Communications (INFOCOM) 2022, 2023, 2024\
 ACM Transactions on Sensor Networks (TOSN) 2022
 
