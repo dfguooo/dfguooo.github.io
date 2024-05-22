@@ -20,10 +20,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student and Research Engineer at the School of Computer Science and Engineering, Nanyang Technological University, Singapore. I am fortunate to be supervised by [Prof. Rui Tan](https://personal.ntu.edu.sg/tanrui/) and work closely with [NTU IoT Research Group](https://ntuiot.xyz/).
-Prior to that, I received my M.Sc. degree from Nanyang Technological University, and my B.Eng. degree from University of Electronic Science and Technology of China. 
+I am a Ph.D. student and Research Engineer at the College of Computing and Data Science, Nanyang Technological University (NTU), Singapore. I am fortunate to be supervised by [Prof. Rui Tan](https://personal.ntu.edu.sg/tanrui/) and to work closely with [NTU IoT Research Group](https://ntuiot.xyz/). I received my M.Sc. degree from NTU, and my B.Eng. degree from University of Electronic Science and Technology of China (UESTC). 
 
-My research interests broadly lie in the field of sensing in Internet of Things and cyber-physical systems. I am passionate about experiment-oriented research, and enjoy getting my hands dirty to build up real-world systems.
+My research interests lie in the fields of sensing in cyber-physical systems and Internet of Things. I enjoy getting my hands dirty to build real-world systems, and am passionate about experiment-oriented research that solves practical problems.
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
