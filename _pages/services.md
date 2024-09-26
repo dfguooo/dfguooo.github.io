@@ -8,7 +8,8 @@ nav_order: 3
 ---
 
 **Conference Service**\
-Web Chair, ACM e-Energy 2024
+Web Chair, ACM e-Energy 2024\
+Artifact Evaluation Committee, ACM SenSys 2024
 
 
 **Co-Reviewer**\
