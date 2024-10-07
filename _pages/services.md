@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-**Conference Service**\
+**Conference Services**\
 Web Chair, ACM e-Energy 2024\
 Artifact Evaluation Committee, ACM SenSys 2024
 
