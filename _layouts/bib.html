@@ -132,6 +132,8 @@
         {% endif %}
         {% assign entrytype_text = entrytype | strip_html | strip %}
         {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+        
+        
 
         <div class="periodical">
           {{ periodical | strip }}
@@ -139,6 +141,18 @@
         <div class="periodical">
           {{ entry.note | strip }}
         </div>
+        
+        <!-- Highlights-->
+        {% if entry.award %}
+              <div style="margin-top: 1px; color: red; font-weight: bold;">
+                🏆  {{ entry.award }}
+              </div>
+        {% endif %}
+        {% if entry.acceptance_ratio %}
+            <div style="margin-top: 1px;">
+                (Acceptance Ratio: {{ entry.acceptance_ratio }})
+            </div>
+        {% endif %}
 
           <!-- Links/Buttons -->
           <div class="links">
@@ -170,6 +184,8 @@
           {%- if entry.demo %}
           <a href="{{ entry.demo }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
           {%- endif %}
+          
+
           {%- if entry.supp %}
             {% if entry.supp contains '://' -%}
             <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
