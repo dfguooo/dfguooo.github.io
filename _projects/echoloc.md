@@ -3,7 +3,7 @@ layout: page
 title: EchoLoc
 description: Infrastructure-Free Smartphone Indoor Localization Using Room Acoustic Responses
 img: assets/img/echoloc_bg.png
-importance: 2
+importance: 1
 category: work
 ---
 

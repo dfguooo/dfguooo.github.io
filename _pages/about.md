@@ -9,10 +9,7 @@ profile:
   image: diver1.jpg
   image_circular: true # crops the image to make it circular
   address: 
-    # <p>Computer Networks & Communications Lab (CNCL)</p>
-    # <p>50 Nanyang Avenue, N4-B2a-01,</p>
-    # <p>Singapore, 639798</p>
-    <p>Computer Networks & Communications Lab (CNCL), 50 Nanyang Avenue, N4-B2a-01, Singapore, 639798</p>
+    # <p>Computer Networks & Communications Lab, 50 Nanyang Avenue, N4-B2a-01, Singapore, 639798</p>
     
 
 news: true  # includes a list of news items

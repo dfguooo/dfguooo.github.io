@@ -3,7 +3,7 @@ layout: page
 title: ILLOC
 description: In-Hall Localization with Standard LoRaWAN Uplink Frames
 img: assets/img/illoc_bg.jpeg
-importance: 1
+importance: 2
 category: work
 ---
 
