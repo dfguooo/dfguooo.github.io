@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We demonstrated our MobiSys'24 paper at SenSys'24 and won the **Best Demo Award**! :trophy: :smile:
+We demonstrated *GhostStripe* at SenSys'24 and won the **Best Demo Award**! 🏆 
