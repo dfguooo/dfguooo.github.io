@@ -35,7 +35,7 @@ If the attack is not stable (Fig. 1b), an anomaly detector may identify the malf
             {% include figure.html path="assets/img/gs_system.png" title="gs_system" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="caption" style="text-align: center; margin-top: 10px;">
-            Overview of GhostStripe.
+            Figure 2: Overview of GhostStripe.
         </div>
     </div>
 </div>
@@ -52,7 +52,7 @@ We design an attack system called **GhostStripe** in two versions with different
             {% include figure.html path="assets/img/gs_implementation.png" title="gs_implementation" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="caption" style="text-align: center; margin-top: 10px;">
-            Outdoor testbed implementation.
+            Figure 3: Outdoor testbed implementation.
         </div>
     </div>
 </div>
@@ -72,6 +72,17 @@ We design an attack system called **GhostStripe** in two versions with different
 
 
 To counteract GhostStripe, we introduce **GhostBuster**, a software-based defense mechanism that detects and mitigates the attack’s effects. GhostBuster consists of a perturbation detector that identifies suspicious pixel fluctuations indicative of adversarial stripes and a sign restorer that reconstructs the natural traffic sign appearance. Experimental results show that GhostBuster successfully restores classification accuracy to 100% in 5% of trials and above 80% in 50% of trials, significantly reducing the attack’s impact. This research highlights the importance of developing robust defenses against adversarial optical attacks to ensure the safety and reliability of autonomous vehicle perception systems. We also discuss other possible countermeasures.
+
+<div class="row">
+    <div class="col-sm-12 text-center">
+        <div style="max-width:500px; margin:auto;">
+            {% include figure.html path="assets/img/ghostbuster.png" title="gs_defense" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="caption" style="text-align: center; margin-top: 10px;">
+            Figure 4: GhostBuster’s defense pipeline.
+        </div>
+    </div>
+</div>
 
 
 For a detailed breakdown of our research, check out our full conference paper at ACM MobiSys 2024. [[PDF](/assets/pdf/MobiSys24-GhostStripe.pdf)]
