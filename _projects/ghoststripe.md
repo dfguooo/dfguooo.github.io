@@ -64,7 +64,7 @@ We design an attack system called **GhostStripe** in two versions with different
             style="width:100%; height:500px;" allowfullscreen>
     </iframe>
     <div class="caption" style="text-align: center; margin-top: 10px;">
-        Demo: GhostStripe achieves stable adversarial stripes on a ``stop'' sign, spoofing the traffic sign recognition to misclassify it as a ``priority road''.
+        Demo: GhostStripe achieves stable adversarial stripes on a "stop" sign, spoofing the traffic sign recognition to misclassify it as a "priority road".
     </div>
 </div>
 
