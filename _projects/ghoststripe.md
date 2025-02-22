@@ -58,36 +58,23 @@ We design an attack system called **GhostStripe** in two versions with different
 </div>
 
 
-<!-- <div class="row">
-    <div class="col-sm-12 text-center">
-        <video controls style="max-width: 100%; height: auto;">
-            <source src="assets/videos/gs_demo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class="caption" style="text-align: center; margin-top: 10px;">
-            Demo: stable adversarial stripes on traffic sign, and stable misclassification result as the ``priority road'' sign.
-            
-        </div>
-    </div>
-</div> -->
 
-<!-- <video style="width:100%" src="/assets/videos/gs_demo.mp4" controls=""></video> -->
-
-<div class="row">
-    <div class="col-sm-12 text-center">
-        <video style="width:100%" src="/assets/videos/gs_demo.mp4" controls></video>
-        <div class="caption" style="text-align: center; margin-top: 10px;">
-            Demo.
-        </div>
+<div class="col-sm-12 text-center">
+    <iframe src="https://drive.google.com/file/d/1_9rpWnpCamqBNOEU5J7o9Nfh0x7FmWGm/preview"
+            style="width:100%; height:500px;" allowfullscreen>
+    </iframe>
+    <div class="caption" style="text-align: center; margin-top: 10px;">
+        Demo: GhostStripe achieves stable adversarial stripes on a ``stop'' sign, consistently spoofing the traffic sign recognition to misclassify it as a ``priority road''.
     </div>
 </div>
+
 
 
 
 To counteract GhostStripe, we introduce **GhostBuster**, a software-based defense mechanism that detects and mitigates the attack’s effects. GhostBuster consists of a perturbation detector that identifies suspicious pixel fluctuations indicative of adversarial stripes and a sign restorer that reconstructs the natural traffic sign appearance. Experimental results show that GhostBuster successfully restores classification accuracy to 100% in 5% of trials and above 80% in 50% of trials, significantly reducing the attack’s impact. This research highlights the importance of developing robust defenses against adversarial optical attacks to ensure the safety and reliability of autonomous vehicle perception systems. We also discuss other possible countermeasures.
 
 
-For a detailed breakdown of our research, check out our full conference paper at MobiSys 2024. [[PDF](/assets/pdf/MobiSys24-GhostStripe.pdf)]
+For a detailed breakdown of our research, check out our full conference paper at ACM MobiSys 2024. [[PDF](/assets/pdf/MobiSys24-GhostStripe.pdf)]
 
 This work also won the **Best Demo Award** at ACM SenSys 2024 🏆. [[Abstract](/assets/pdf/GhostStripe-SenSys-Demo.pdf)] [[NTU News](https://www.ntu.edu.sg/computing/news-events/news/detail/best-demo-award-at-the-22nd-acm-conference-on-embedded-networked-sensor-systems-(sensys-2024))] [[ACM News](https://www.linkedin.com/posts/association-for-computing-machinery_we-are-thrilled-to-share-the-outstanding-activity-7274460854056542213-Pxuj/)]
 
