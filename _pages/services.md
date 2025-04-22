@@ -12,7 +12,7 @@ Web Chair, [ACM e-Energy 2024](https://energy.acm.org/conferences/eenergy/2024/)
 
 
 **Program Committee Member**\
-Artifact Evaluation, ACM MobiSys 2024\
+Artifact Evaluation, ACM MobiSys 2025\
 Artifact Evaluation, ACM SenSys 2024
 
 
