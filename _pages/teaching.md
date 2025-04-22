@@ -7,13 +7,14 @@ nav: true
 nav_order: 2
 ---
 
-**Courses**\
-AI6128 Urban Computing (Tutorial), NTU, 2023 Fall
+**Course Tutorials**\
+GP8000 Artificial Intelligence Literacy, NTU, 2025 Fall\
+AI6128 Urban Computing, NTU, 2023 Fall
 
 
 
 **Undergraduate Final Year Projects**\
-Mentored 10+ undergraduate students: Beh Chee Kwang Nicholas, Chia Yi You, Peizhu Zhao, etc.\\
+Mentored 10+ undergraduate students: Beh Chee Kwang Nicholas, Chia Yi You, Peizhu Zhao, etc.\
 NTU, 2021 Spring - Present
 
 
