@@ -12,17 +12,17 @@ Web Chair, [ACM e-Energy 2024](https://energy.acm.org/conferences/eenergy/2024/)
 
 
 **Program Committee Member**\
-IEEE RTCSA 2025, Posters and Demos\
-ACM MobiSys 2025, Artifact Evaluation\
-ACM SenSys 2024, Artifact Evaluation
+IEEE RTCSA 2025 (Posters and Demos)\
+ACM MobiSys 2025 (Artifact Evaluation)\
+ACM SenSys 2024 (Artifact Evaluation)
 
 
 **Invited Reviewer**\
 IEEE Transactions on Mobile Computing (TMC)
 
 **External co-Reviewer**\
-ACM Conference on Embedded Networked Sensor Systems (SenSys) 2023\
-IEEE International Conference on Computer Communications (INFOCOM) 2022, 2023, 2024\
+ACM SenSys 2023\
+IEEE INFOCOM 2022, 2023, 2024\
 ACM Transactions on Sensor Networks (TOSN) 2022
 
 
