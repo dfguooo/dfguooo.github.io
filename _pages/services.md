@@ -11,7 +11,7 @@ nav_order: 3
 Web Chair, [ACM e-Energy 2024](https://energy.acm.org/conferences/eenergy/2024/)
 
 
-**Program Committee Member**\
+**Technical Program Committee Member**\
 IEEE RTCSA 2025 (Posters and Demos)\
 ACM MobiSys 2025 (Artifact Evaluation)\
 ACM SenSys 2024 (Artifact Evaluation)
