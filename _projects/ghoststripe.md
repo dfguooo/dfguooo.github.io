@@ -188,7 +188,7 @@ GhostBuster provides a lightweight and deployment-friendly front-end defense, co
 </div>
 
 
-**Conference Demonstration and Award 🏆**
+**Conference Demonstration and Award**
 
 We presented this work at ACM MobiSys 2024, held in June 2024 in Tokyo, Japan. Later, in November 2024, we deployed and demonstrated the GhostStripe attack system live at ACM SenSys 2024 in Hangzhou, China. The project was honored with the Best Demo Award at ACM SenSys 2024.
 <!-- The co-authors of this research include: Wu Yuting, Dai Yimin, Zhou Pengfei (University of Pittsburgh), Lou Xin (Singapore Institute of Technology), and Tan Rui. -->
