@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We demonstrated *GhostStripe* at SenSys'24 and won the **Best Demo Award**! 🏆 
+We demonstrated *GhostStripe* at SenSys'24 and won the **Best Demo Award**! 🏆
