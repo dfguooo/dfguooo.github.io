@@ -18,7 +18,8 @@ ACM SenSys 2024 (Artifact Evaluation)
 
 
 **Invited Reviewer**\
-IEEE Transactions on Mobile Computing (TMC)
+IEEE Transactions on Mobile Computing (TMC)\
+IEEE Signal Processing Letters (SPL)
 
 **External co-Reviewer**\
 ACM SenSys 2023\
