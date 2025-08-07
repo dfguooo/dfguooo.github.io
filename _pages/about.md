@@ -18,13 +18,17 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student at the College of Computing and Data Science, Nanyang Technological University (NTU), Singapore. I am fortunate to be supervised by [Prof. Rui Tan](https://personal.ntu.edu.sg/tanrui/) and to work closely with [NTU IoT Research Group](https://ntuiot.xyz/). I received my M.Sc. degree from NTU, and my B.Eng. degree from University of Electronic Science and Technology of China (UESTC). 
 
+I am a postdoctoral researcher at the [NTU IoT Research Group](https://ntuiot.xyz/), Nanyang Technological University (NTU), Singapore, where I also obtained my Ph.D degree under the supervision of [Prof. Rui Tan](https://personal.ntu.edu.sg/tanrui/). Previously, I received my M.Sc. degree from NTU, and my B.Eng. degree from University of Electronic Science and Technology of China (UESTC). 
 
-My research focuses on sensing across various modalities (imagery, radio, acoustic, etc.) for cyber-physical systems (CPS) and the Internet of Things (IoT), with particular interest in robust perception for autonomous driving and location sensing in IoT. As a system builder, I enjoy getting hands-on to build real-world systems and am passionate about experiment-driven research that tackles practical challenges.
+My research aims to improve the reliability of sensing systems in cyber-physical systems (CPS) and the Internet of Things (IoT), with a current focus on advancing robust vehicular perception.
 
+<!-- <span style="color:red">I am open to opportunities in both academia and industry.</span> -->
 
-<!-- My research interests lie in the fields of sensing in cyber-physical systems and Internet of Things. I enjoy getting my hands dirty to build real-world systems, and am passionate about experiment-oriented research that solves practical problems. -->
+<!-- I am a Ph.D. student at the College of Computing and Data Science, Nanyang Technological University (NTU), Singapore. I am fortunate to be supervised by [Prof. Rui Tan](https://personal.ntu.edu.sg/tanrui/) and to work closely with [NTU IoT Research Group](https://ntuiot.xyz/). I received my M.Sc. degree from NTU, and my B.Eng. degree from University of Electronic Science and Technology of China (UESTC).  -->
+
+<!-- My research focuses on sensing across various modalities (imagery, radio, acoustic, etc.) for cyber-physical systems (CPS) and the Internet of Things (IoT), with particular interest in robust perception for autonomous driving and location sensing in IoT. As a system builder, I enjoy getting hands-on to build real-world systems and am passionate about experiment-driven research that tackles practical challenges. -->
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
