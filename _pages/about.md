@@ -2,14 +2,15 @@
 layout: about
 title: about
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: "@<a href='https://ntuiot.xyz/'>NTU IoT Research Group</a>, Network Systems Lab, 50 Nanyang Avenue, N4-B2a-01, Singapore"
+# Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: diver1.jpg
   image_circular: true # crops the image to make it circular
   address: 
-    # <p>Computer Networks & Communications Lab, 50 Nanyang Avenue, N4-B2a-01, Singapore, 639798</p>
+    # <p>Network Systems Lab, 50 Nanyang Avenue, N4-B2a-01, Singapore, 639798</p>
     
 
 news: true  # includes a list of news items
@@ -19,9 +20,10 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I am a postdoctoral researcher at the [NTU IoT Research Group](https://ntuiot.xyz/), Nanyang Technological University (NTU), Singapore, where I also obtained my Ph.D degree under the supervision of [Prof. Rui Tan](https://personal.ntu.edu.sg/tanrui/). Previously, I received my M.Sc. degree from NTU, and my B.Eng. degree from University of Electronic Science and Technology of China (UESTC).  
+I am a postdoctoral researcher at the College of Computing and Data Science, Nanyang Technological University (NTU), Singapore, where I also obtained my Ph.D degree, fortunately advised by [Prof. Rui Tan](https://personal.ntu.edu.sg/tanrui/). Previously, I received my M.Sc. degree from NTU, and my B.Eng. degree from University of Electronic Science and Technology of China (UESTC).  
 
-My research aims to improve the reliability of sensing systems in cyber-physical systems (CPS) and the Internet of Things (IoT), with a current focus on advancing robust vehicular perception.
+My research aims to improve the reliability of sensing systems in cyber-physical systems (CPS) and the Internet of Things (IoT), with a current focus on enhancing the resilience and robustness of autonomous vehicle perception. 
+
 
 <!-- <span style="color:red">I am open to opportunities in both academia and industry.</span> -->
 

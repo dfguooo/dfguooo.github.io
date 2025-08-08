@@ -27,6 +27,7 @@ Before diving into the technical details, we first demonstrate the attack effect
 
 
 **Physical-Layer Vulnerability in the Cameras**
+
 Many vehicle cameras are built with Complementary Metal-Oxide Semiconductor (CMOS) image sensors. These sensors typically employ a rolling shutter, which exposes the image line by line—each row of pixels is exposed sequentially within a short time window, rather than exposing the entire frame simultaneously (as illustrated in Fig. 1).
 This row-wise exposure mechanism stems from readout bottlenecks inherent in CMOS architecture. Its advantages in terms of cost and power efficiency have led to its widespread adoption in most commercial cameras, including those used in automotive vision systems [3, 4].
 
@@ -190,7 +191,7 @@ GhostBuster provides a lightweight and deployment-friendly front-end defense, co
 
 **Conference Demonstration and Award**
 
-We presented this work at ACM MobiSys 2024, held in June 2024 in Tokyo, Japan. Later, in November 2024, we deployed and demonstrated the GhostStripe attack system live at ACM SenSys 2024 in Hangzhou, China. The project was honored with the Best Demo Award at ACM SenSys 2024.
+We presented this paper at ACM MobiSys 2024, held in June 2024 in Tokyo, Japan. Later, in November 2024, we demonstrated the GhostStripe attack system live at ACM SenSys 2024 in Hangzhou, China. The project was honored with the Best Demo Award at ACM SenSys 2024.
 <!-- The co-authors of this research include: Wu Yuting, Dai Yimin, Zhou Pengfei (University of Pittsburgh), Lou Xin (Singapore Institute of Technology), and Tan Rui. -->
 
 
