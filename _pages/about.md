@@ -2,14 +2,15 @@
 layout: about
 title: about
 permalink: /
-# subtitle: "@<a href='https://ntuiot.xyz/'>NTU IoT Research Group</a>, Network Systems Lab, 50 Nanyang Avenue, N4-B2a-01, Singapore"
+subtitle: 
+# "@<a href='https://ntuiot.xyz/'>NTU IoT Research Group</a>, Network Systems Lab, 50 Nanyang Avenue, N4-B2a-01, Singapore"
 # Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: diver1.jpg
   image_circular: true # crops the image to make it circular
-  address:
+  address: 
     # <p class="small text-muted">
     #   Network Systems Lab<br>
     #   50 Nanyang Avenue, N4-B2a-01<br>
