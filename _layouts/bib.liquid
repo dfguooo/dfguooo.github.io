@@ -185,6 +185,14 @@
       {{ entry.note | strip }}
     </div>
 
+    <!-- Highlights-->
+    {% if entry.acceptance_ratio %}
+        <div style="margin-top: 1px;">
+            (Acceptance Ratio: {{ entry.acceptance_ratio }})
+        </div>
+    {% endif %}
+
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
