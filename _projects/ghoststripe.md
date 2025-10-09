@@ -9,7 +9,7 @@ category: work
 
 
 
-In intelligent driving systems, cameras are among the most critical perception sensors, playing a central role in tasks such as traffic sign recognition, lane detection, and obstacle identification. However, our research reveals that these seemingly reliable and well-functioning camera systems may harbor unexpected security vulnerabilities. This research project, **GhostStripe**, uncovers an attack method that leverages optical interference -- invisible to the human eye yet capable of deceiving intelligent driving perception systems. This work was published at **ACM MobiSys 2024** [1] and received the **Best Demo Award at ACM SenSys 2024** [2].
+In intelligent driving systems, cameras are among the most critical perception sensors, playing a central role in tasks such as traffic sign recognition, lane detection, and obstacle identification. However, our research reveals that these seemingly reliable and well-functioning camera systems may harbor unexpected security vulnerabilities. This research project, **GhostStripe**, uncovers an attack method that leverages optical interference -- **invisible to the human eyes in the physical world yet capable of deceiving intelligent driving perception systems**. This work was published at **ACM MobiSys 2024** [1] and received the **Best Demo Award at ACM SenSys 2024** [2].
 
 **Attack Effectiveness**
 
