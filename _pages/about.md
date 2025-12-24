@@ -30,7 +30,9 @@ latest_posts:
 
 I am a postdoctoral researcher at the [NTU IoT Research Group](https://ntuiot.xyz/), Nanyang Technological University (NTU), Singapore, where I also obtained my Ph.D degree, advised by [Prof. Rui Tan](https://personal.ntu.edu.sg/tanrui/). Previously, I received my M.Sc. degree from NTU, and my B.Eng. degree from University of Electronic Science and Technology of China (UESTC).  
 
-My research aims to improve the reliability of sensing systems in cyber-physical systems (CPS) and the Internet of Things (IoT), with a current focus on enhancing the resilience and robustness of autonomous vehicle perception. 
+My research focuses on building reliable and secure sensing systems for the Internet of Things (IoT) and Cyber-Physical Systems (CPS). I study how sensing modalities such as light, radio, and acoustic signals behave throughout the physical sensing process and under real-world constraints, and I develop robust sensing systems that withstand challenges including malicious attacks, environmental factors, and hardware limitations. My current work centers on robust perception for autonomous driving, and I have also explored location sensing in challenging IoT environments. I am an experimentalist and system builder who emphasizes real-world, experiment-driven research to build systems that operate reliably under practical constraints.
+
+<!-- My research aims to improve the reliability of sensing systems in cyber-physical systems (CPS) and the Internet of Things (IoT), with a current focus on enhancing the resilience and robustness of autonomous vehicle perception.  -->
 
 
 <!-- 
