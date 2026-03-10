@@ -9,7 +9,7 @@ category: work
 
 
 
-In intelligent driving systems, cameras are among the most critical perception sensors, playing a central role in tasks such as traffic sign recognition, lane detection, and obstacle identification. However, our research reveals that these seemingly reliable and well-functioning camera systems may harbor unexpected security vulnerabilities. This research project, **GhostStripe**, uncovers an attack method that leverages optical interference -- **invisible to the human eyes in the physical world yet capable of deceiving intelligent driving perception systems**. This work was published at **ACM MobiSys 2024** [1] and received the **Best Demo Award at ACM SenSys 2024** [2].
+In intelligent driving systems, cameras are among the most critical perception sensors, playing a central role in tasks such as traffic sign recognition, lane detection, and obstacle identification. However, our research reveals that these seemingly reliable and well-functioning camera systems may harbor unexpected security vulnerabilities. This research project, **GhostStripe**, uncovers an attack method that leverages optical interference -- **invisible to the human eyes in the physical world yet capable of deceiving intelligent driving perception systems**. This work was published at **ACM MobiSys 2024** [1] and received the **Best Demo Award at ACM SenSys 2024** [2]. The extended version which includes detailed defense design is published on **ACM TOSN** [8]. 
 
 **Attack Effectiveness**
 
@@ -159,7 +159,7 @@ These results demonstrate that GhostStripe is highly feasible and threatening in
 
 **Countermeasure: GhostBuster**
 
-To address the attack surface revealed by GhostStripe, we design a software-based defense mechanism named GhostBuster. Its core components include:
+To address the attack surface revealed by GhostStripe, we design a software-based defense mechanism named GhostBuster [8]. Its core components include:
 
 - **Perturbation Detector**: Identifies potential rolling shutter interference by analyzing temporal optical texture anomalies in the captured image, which may result from flickering light sources.
 
@@ -226,7 +226,6 @@ We call upon both the academic and industrial communities to pay greater attenti
 
 
 
-*The extended version with the detailed design of GhostBuster is under review.
 
 **References**
 
@@ -234,7 +233,7 @@ We call upon both the academic and industrial communities to pay greater attenti
 
 [2] Dongfang Guo, Yuting Wu, Yimin Dai, Pengfei Zhou, Xin Lou, and Rui Tan. 2024. Demo: Invisible Adversarial Stripes against Traffic Sign Recognition in Autonomous Driving. In The 22nd ACM Conference on Embedded Networked Sensor Systems (SENSYS ’24), November 4–7, 2024, Hangzhou, China. ACM, New York, NY, USA, 2 pages. **Best Demo Award** 🏆 [[Abstract](/assets/pdf/GhostStripe-SenSys-Demo.pdf)] [[NTU News](https://www.ntu.edu.sg/computing/news-events/news/detail/best-demo-award-at-the-22nd-acm-conference-on-embedded-networked-sensor-systems-(sensys-2024))] [[ACM News](https://www.linkedin.com/posts/association-for-computing-machinery_we-are-thrilled-to-share-the-outstanding-activity-7274460854056542213-Pxuj/)]
 
-[3] 2020. Teardown: Teslaś hardware retrofits for model 3. https://www.eetasia.com/teslas-hardware-retrofits-for-model-3/
+[3] 2020. Teardown: Tesla's hardware retrofits for model 3. https://www.eetasia.com/teslas-hardware-retrofits-for-model-3/
 
 [4] 2023. Apollo hardware development platform. https://developer.apollo.auto/platform/hardware.html
 
@@ -243,3 +242,5 @@ We call upon both the academic and industrial communities to pay greater attenti
 [6] Athena Sayles, Ashish Hooda, Mohit Gupta, Rahul Chatterjee, and Earlence Fernandes. 2021. Invisible perturbations:Physical adversarial examples exploiting the rolling shutter effect. In IEEE/CVF CVPR. 14666–14675.
 
 [7] Sebastian Köhler, Giulio Lovisotto, Simon Birnbach, Richard Baker, and Ivan Martinovic. 2021. They see me rollin’: Inherent vulnerability of the rolling shutter in cmos image sensors. In ACSAC. 399–413.
+
+[8] Dongfang Guo , Yuting Wu, Pengfei Zhou, Xin Lou, and Rui Tan. Invisible Adversarial Stripes on Traffic Sign: Threat and Defense for Autonomous Vehicles. ACM Transactions on Sensor Networks 22, no. 1 (2026): 1-32. [[PDF](/assets/pdf/TOSN26-GhostBuster.pdf)]
