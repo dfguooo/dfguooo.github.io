@@ -8,9 +8,8 @@ nav_order: 4
 ---
 
 **Course Tutorials**\
-GP8000 Artificial Intelligence Literacy, NTU, 2025 Fall\
-AI6128 Urban Computing, NTU, 2023 Fall
-
+GP8000 Artificial Intelligence Literacy, NTU (2025 & 2026, fall semesters) \
+AI6128 Urban Computing, NTU (2023, fall semester)
 
 
 **Undergraduate Final Year Projects**\
